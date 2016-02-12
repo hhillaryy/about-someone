@@ -1,0 +1,53 @@
+html {
+  width: 100%;
+  border: none;
+}
+
+*,
+*::before
+*::after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/bill.jpg");
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  height: 650px;
+  font-family: sans-serif;
+}
+
+.nav li {
+  display: inline;
+  float: right;
+  list-style: none;
+  letter-spacing: 15px;
+}
+
+.main-content {
+  width: 1500px;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  position: relative;
+  height: 800px;
+  width: 1500px;
+}
+
+.column-1, .column-2 {
+  background-color: #fff;
+  width: 750px;
+
+}
+
+.column-1 {
+  float:left;
+}
+
+.column-2 {
+  float:right;
+}
